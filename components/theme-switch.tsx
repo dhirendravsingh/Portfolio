@@ -31,7 +31,7 @@ export default function ThemeSwitch() {
         {theme === "light" ? <BsSun /> : <BsMoon />}
       </button>
       <audio ref={audioRef} style={{ display: "none" }}>
-        <source src="/click2.mp3" type="audio/mpeg" />
+        <source src="/click5.mp3" type="audio/mpeg" />
       </audio>
     </>
   );
