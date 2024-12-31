@@ -7,6 +7,9 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import scriptlyImg from "@/public/scriptly.png"
 import checkmateImg from "@/public/checkmate.png"
+import autogram from "@/public/autogram.png"
+import wanderlust from "@/public/wanderlust.png"
+import paydart from "@/public/paydart.png"
 
 export const links = [
   {
@@ -65,47 +68,48 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Autogram",
+    Link : "https://github.com/dhirendravsingh/SAAS-Instagram-DM-Automation",
+
+    description:
+      "A SaaS platform for automating Instagram DMs and comments to enhance engagement and streamline creator interactions.",
+    tags: ["Next.JS", "PostgreSQL", "Prisma", "Tailwind", "Relume", "Clerk"],
+    imageUrl: autogram,
+  },
+  {
     title: "Scriptly",
     Link : "https://scriptly-blond.vercel.app/",
     description:
       "Scriptly is a full-stack blogging platform inspired by Medium, offering seamless content creation and management.",
-    tags: ["React", "Hono", "PostgreSQL", "Prisma", "Typescript", "Tailwind"],
+    tags: ["React.JS", "Hono.JS", "PostgreSQL", "Prisma", "Typescript", "Tailwind"],
     imageUrl: scriptlyImg,
   },
   {
     title: "PayDart",
-    Link : "https://github.com/dhirendravsingh",
+    Link : "https://github.com/dhirendravsingh/PayDart",
     description:
       "PayDart is a Payment Wallet, offering secure transactions and seamless user experience with a modern tech stack.",
-    tags: ["Next", "Express", "Postgresql", "Turborepo", "NextAuth", "AWS" ],
-    imageUrl: rmtdevImg,
+    tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS" ],
+    imageUrl: paydart,
   },
   {
     title: "CheckMate",
-    Link : "https://scriptly-blond.vercel.app/",
+    Link : "https://github.com/dhirendravsingh/CheckMate",
 
     description:
       "Connect and play chess in real-time with friends or new opponents on a seamless, interactive platform.",
-    tags: ["React.js", "WebSocket", "Chess.js", "Typescript", "Tailwind"],
+    tags: ["React.JS", "WebSocket", "Chess.JS", "Typescript", "Tailwind"],
     imageUrl: checkmateImg,
   },
+ 
   {
-    title: "TradeWave",
-    Link : "https://scriptly-blond.vercel.app/",
+    title: "Wanderlust",
+    Link : "https://wanderlust-hub.vercel.app/listings",
 
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Next.js", "Express.js", "Turborepo", "Postgresql", "NextAuth", "Typescript", "Tailwind"],
-    imageUrl: wordanalyticsImg,
-  },
-  {
-    title: "ConnectEase",
-    Link : "https://scriptly-blond.vercel.app/",
-
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Next.js", "Express.js", "Turborepo", "Postgresql", "NextAuth", "Typescript", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+      "A global hostel booking platform offering seamless booking experiences with user authentication, listings, and robust data management.",
+    tags: ["Node.JS", "EJS", "MongoDB",  "Tailwind"],
+    imageUrl: wanderlust,
   },
 ] as const;
 
