@@ -69,7 +69,9 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Autogram",
-    Link : "https://github.com/dhirendravsingh/SAAS-Instagram-DM-Automation",
+    Link : null,
+    gitHub : "https://github.com/dhirendravsingh/SAAS-Instagram-DM-Automation",
+
 
     description:
       "A SaaS platform for automating Instagram DMs and comments to enhance engagement and streamline creator interactions.",
@@ -86,7 +88,8 @@ export const projectsData = [
   },
   {
     title: "PayDart",
-    Link : "https://github.com/dhirendravsingh/PayDart",
+    Link : null,
+    gitHub : "https://github.com/dhirendravsingh/PayDart",
     description:
       "A Payment Wallet, offering secure transactions and seamless user experience.",
     tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS", "CI/CD" ],
@@ -94,7 +97,8 @@ export const projectsData = [
   },
   {
     title: "CheckMate",
-    Link : "https://github.com/dhirendravsingh/CheckMate",
+    Link : null,
+    gitHub : "https://github.com/dhirendravsingh/CheckMate",
 
     description:
       "Connect and play chess in real-time with opponents on a seamless, interactive platform.",
