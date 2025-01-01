@@ -89,7 +89,7 @@ export const projectsData = [
     Link : "https://github.com/dhirendravsingh/PayDart",
     description:
       "A Payment Wallet, offering secure transactions and seamless user experience with a modern tech stack.",
-    tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS" ],
+    tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS", "CI/CD" ],
     imageUrl: paydart,
   },
   {
@@ -107,7 +107,7 @@ export const projectsData = [
     Link : "https://wanderlust-hub.vercel.app/listings",
 
     description:
-      "A global hostel booking platform offering seamless booking experiences with user authentication, listings, and robust data management.",
+      "A global hostel booking platform with user authentication, listings, and robust data management.",
     tags: ["Node.JS", "EJS", "MongoDB",  "Tailwind"],
     imageUrl: wanderlust,
   },
