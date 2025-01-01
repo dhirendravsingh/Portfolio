@@ -97,7 +97,7 @@ export const projectsData = [
     Link : "https://github.com/dhirendravsingh/CheckMate",
 
     description:
-      "Connect and play chess in real-time with friends or new opponents on a seamless, interactive platform.",
+      "Connect and play chess in real-time with opponents on a seamless, interactive platform.",
     tags: ["React.JS", "WebSocket", "Chess.JS", "Typescript", "Tailwind"],
     imageUrl: checkmateImg,
   },
