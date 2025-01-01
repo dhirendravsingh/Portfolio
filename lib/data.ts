@@ -71,8 +71,6 @@ export const projectsData = [
     title: "Autogram",
     Link : null,
     gitHub : "https://github.com/dhirendravsingh/SAAS-Instagram-DM-Automation",
-
-
     description:
       "A SaaS platform for automating Instagram DMs and comments to enhance engagement and streamline creator interactions.",
     tags: ["Next.JS", "PostgreSQL", "Prisma", "Tailwind", "Relume", "Clerk"],
@@ -81,6 +79,7 @@ export const projectsData = [
   {
     title: "Scriptly",
     Link : "https://scriptly-blond.vercel.app/",
+    gitHub : null,
     description:
       "A full-stack blogging platform, offering seamless content creation and management.",
     tags: ["React.JS", "Hono.JS", "PostgreSQL", "Prisma", "Typescript", "Tailwind"],
@@ -109,6 +108,8 @@ export const projectsData = [
   {
     title: "Wanderlust",
     Link : "https://wanderlust-hub.vercel.app/listings",
+    gitHub : null,
+
 
     description:
       "A global hostel booking platform with user authentication, listings, and robust data management.",
