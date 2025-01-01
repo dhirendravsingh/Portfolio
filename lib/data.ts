@@ -80,7 +80,7 @@ export const projectsData = [
     title: "Scriptly",
     Link : "https://scriptly-blond.vercel.app/",
     description:
-      "Scriptly is a full-stack blogging platform inspired by Medium, offering seamless content creation and management.",
+      "A full-stack blogging platform, offering seamless content creation and management.",
     tags: ["React.JS", "Hono.JS", "PostgreSQL", "Prisma", "Typescript", "Tailwind"],
     imageUrl: scriptlyImg,
   },
@@ -88,7 +88,7 @@ export const projectsData = [
     title: "PayDart",
     Link : "https://github.com/dhirendravsingh/PayDart",
     description:
-      "PayDart is a Payment Wallet, offering secure transactions and seamless user experience with a modern tech stack.",
+      "A Payment Wallet, offering secure transactions and seamless user experience with a modern tech stack.",
     tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS" ],
     imageUrl: paydart,
   },
