@@ -10,7 +10,7 @@ import checkmateImg from "@/public/checkmate.png"
 import autogram from "@/public/autogram.png"
 import wanderlust from "@/public/wanderlust.png"
 import paydart from "@/public/paydart.png"
-
+import smtp from "@/public/smtp-mail-server.png"
 export const links = [
   {
     name: "Home",
@@ -93,6 +93,16 @@ export const projectsData = [
       "A Payment Wallet, offering secure transactions and seamless user experience.",
     tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS", "CI/CD" ],
     imageUrl: paydart,
+  },
+  {
+    title: "SMTP Mail Server",
+    Link : null,
+    gitHub : "https://github.com/dhirendravsingh/smtp-mail-server",
+
+    description:
+      "A lightweight SMTP mail server enabling seamless email communication with real-time validation and delivery tracking.",
+    tags: ["Node.js"],
+    imageUrl: smtp,
   },
   {
     title: "CheckMate",
