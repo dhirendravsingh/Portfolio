@@ -11,6 +11,7 @@ import autogram from "@/public/autogram.png"
 import wanderlust from "@/public/wanderlust.png"
 import paydart from "@/public/paydart.png"
 import smtp from "@/public/smtp-mail-server.png"
+import googleDoc from "@/public/google-doc.png"
 export const links = [
   {
     name: "Home",
@@ -77,13 +78,13 @@ export const projectsData = [
     imageUrl: autogram,
   },
   {
-    title: "Scriptly",
-    Link : "https://scriptly-blond.vercel.app/",
-    gitHub : null,
+    title: "Google Docs Clone",
+    Link : null,
+    gitHub : "https://github.com/dhirendravsingh/google-docs-clone",
     description:
-      "A full-stack blogging platform, offering seamless content creation and management.",
-    tags: ["React.JS", "Hono.JS", "PostgreSQL", "Prisma", "Typescript", "Tailwind"],
-    imageUrl: scriptlyImg,
+      "A real-time collaborative google docs clone for simultaneous multi-user editing.",
+    tags: ["TypeScript", "Next.js", "React.js", "ShadCN", "Liveblocks", "Clerk"],
+    imageUrl: googleDoc,
   },
   {
     title: "PayDart",
@@ -93,6 +94,15 @@ export const projectsData = [
       "A Payment Wallet, offering secure transactions and seamless user experience.",
     tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS", "CI/CD" ],
     imageUrl: paydart,
+  },
+  {
+    title: "Scriptly",
+    Link : "https://scriptly-blond.vercel.app/",
+    gitHub : null,
+    description:
+      "A full-stack blogging platform, offering seamless content creation and management.",
+    tags: ["React.JS", "Hono.JS", "PostgreSQL", "Prisma", "Typescript", "Tailwind"],
+    imageUrl: scriptlyImg,
   },
   {
     title: "SMTP Mail Server",
