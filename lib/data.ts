@@ -41,7 +41,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Website Builder",
+    title: "Website Developer",
     location: "Remote Work",
     company : "Ekohum Foundation",
     description:

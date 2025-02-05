@@ -44,10 +44,10 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h2 className="font-bold capitalize">{item.title}</h2>
+              <h2 className="font-bold capitalize  dark:text-white">{item.title}</h2>
               <h5 className="font-medium tex-sm capitalize">{item.company}</h5>
 
-              <p className="font-thin !mt-1">{item.location}</p>
+              <p className="font-thin !mt-1 dark:text-white/50">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
