@@ -1,9 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import scriptlyImg from "@/public/scriptly.png"
 import checkmateImg from "@/public/checkmate.png"
@@ -12,6 +7,8 @@ import wanderlust from "@/public/wanderlust.png"
 import paydart from "@/public/paydart.png"
 import smtp from "@/public/smtp-mail-server.png"
 import googleDoc from "@/public/google-doc.png"
+import task_management from "@/public/task-management.png"
+
 export const links = [
   {
     name: "Home",
@@ -126,15 +123,15 @@ export const projectsData = [
   },
  
   {
-    title: "Wanderlust",
-    Link : "https://wanderlust-hub.vercel.app/listings",
+    title: "Task Management App",
+    Link : "https://task-management-pied-iota.vercel.app/",
     gitHub : null,
 
 
     description:
-      "A global hostel booking platform with user authentication, listings, and robust data management.",
-    tags: ["Node.JS", "EJS", "MongoDB",  "Tailwind"],
-    imageUrl: wanderlust,
+      "A task management app that allows users to create, assign, and track tasks.",
+    tags: ["Next.JS", "MongoDB", "Prisma", "Tailwind"],
+    imageUrl: task_management,
   },
 ] as const;
 
