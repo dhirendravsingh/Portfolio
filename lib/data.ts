@@ -3,7 +3,6 @@ import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import scriptlyImg from "@/public/scriptly.png"
 import checkmateImg from "@/public/checkmate.png"
 import autogram from "@/public/autogram.png"
-import wanderlust from "@/public/wanderlust.png"
 import paydart from "@/public/paydart.png"
 import smtp from "@/public/smtp-mail-server.png"
 import googleDoc from "@/public/google-doc.png"
