@@ -7,6 +7,8 @@ import paydart from "@/public/paydart.png"
 import smtp from "@/public/smtp-mail-server.png"
 import googleDoc from "@/public/google-doc.png"
 import task_management from "@/public/task-management.png"
+import preptalkai from "@/public/preptalkai.png"
+
 
 export const links = [
   {
@@ -90,6 +92,15 @@ export const projectsData = [
       "A Payment Wallet, offering secure transactions and seamless user experience.",
     tags: ["Next.JS", "Node.JS", "Postgresql", "Turborepo", "NextAuth", "AWS", "CI/CD" ],
     imageUrl: paydart,
+  },
+  {
+    title: "PrepTalk AI",
+    Link : "https://preptalk--ai.vercel.app/",
+    gitHub : "https://github.com/dhirendravsingh/AI-voice-mock-Interview-Platform",
+    description:
+      "A real-time AI based voice mock interview platform that provides instant feedback and analysis.",
+    tags: ["TypeScript", "Next.js", "Gemini", "React.js", "ShadCN", "Vapi"],
+    imageUrl: preptalkai,
   },
   {
     title: "Scriptly",
