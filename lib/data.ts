@@ -8,7 +8,7 @@ import smtp from "@/public/smtp-mail-server.png"
 import googleDoc from "@/public/google-doc.png"
 import task_management from "@/public/task-management.png"
 import preptalkai from "@/public/preptalkai.png"
-
+import { CgWorkAlt } from "react-icons/cg";
 
 export const links = [
   {
@@ -39,22 +39,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Website Developer",
+    title: "Website Developer Intern",
     location: "Remote Work",
     company : "Ekohum Foundation",
     description:
     "Revamped the Ekohum Foundation’s website using WordPress, implementing a new design that improved navigation and accessibility, leading to a 40% increase in user engagement.",
     icon: React.createElement(HiOutlineComputerDesktop),
-    date: "2024 - Present",
+    date: "April 2024 - October 2024",
   },
-  // {
-  //   title: "Front-End Developer",
-  //   location: "Orlando, FL",
-  //   description:
-  //     "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-  //   icon: React.createElement(CgWorkAlt),
-  //   date: "2019 - 2021",
-  // },
+  {
+    title: "Full Stack Developer Intern",
+    location: "Noida, India",
+    company : "SkyFunnel AI Pvt. Ltd.",
+    description:
+      "I worked as a full-stack developer Intern at a startup, where I developed and maintained web applications using React, Next.js, Node.js, and MongoDB. I also implemented CI/CD pipelines and containerized applications using Docker.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2025 - Present",
+  },
   // {
   //   title: "Full-Stack Developer",
   //   location: "Houston, TX",
