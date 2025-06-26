@@ -39,6 +39,15 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer Intern",
+    location: "Noida, India",
+    company : "SkyFunnel AI Pvt. Ltd.",
+    description:
+      "Working as a Full-Stack Developer Intern at a startup, enhancing platform performance and stability through tRPC APIs, Prisma/PostgreSQL optimization, Redis caching, and critical bug fixes.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2025 - Present",
+  },
+   {
     title: "Website Developer Intern",
     location: "Remote Work",
     company : "Ekohum Foundation",
@@ -46,15 +55,6 @@ export const experiencesData = [
     "Revamped the Ekohum Foundation’s website using WordPress, implementing a new design that improved navigation and accessibility, leading to a 40% increase in user engagement.",
     icon: React.createElement(HiOutlineComputerDesktop),
     date: "April 2024 - October 2024",
-  },
-  {
-    title: "Full Stack Developer Intern",
-    location: "Noida, India",
-    company : "SkyFunnel AI Pvt. Ltd.",
-    description:
-      "I worked as a full-stack developer Intern at a startup, where I developed and maintained web applications using React, Next.js, Node.js, and MongoDB. I also implemented CI/CD pipelines and containerized applications using Docker.",
-    icon: React.createElement(CgWorkAlt),
-    date: "June 2025 - Present",
   },
   // {
   //   title: "Full-Stack Developer",
