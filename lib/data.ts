@@ -43,7 +43,7 @@ export const experiencesData = [
     location: "Noida, India",
     company : "SkyFunnel AI Pvt. Ltd.",
     description:
-      "Working as a Full-Stack Developer Intern at a startup, enhancing platform performance and stability through tRPC APIs, Prisma/PostgreSQL optimization, Redis caching, and critical bug fixes.",
+      "Worked as a Full-Stack Developer Intern at a startup, enhanced platform performance and stability through tRPC APIs, Prisma/PostgreSQL optimization, Redis caching, and critical bug fixes.",
     icon: React.createElement(CgWorkAlt),
     date: "April 2025 - June 2025",
   },
