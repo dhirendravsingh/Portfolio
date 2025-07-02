@@ -45,7 +45,7 @@ export const experiencesData = [
     description:
       "Working as a Full-Stack Developer Intern at a startup, enhancing platform performance and stability through tRPC APIs, Prisma/PostgreSQL optimization, Redis caching, and critical bug fixes.",
     icon: React.createElement(CgWorkAlt),
-    date: "June 2025 - Present",
+    date: "April 2025 - June 2025",
   },
    {
     title: "Website Developer Intern",
