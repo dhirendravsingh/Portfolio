@@ -1,4 +1,5 @@
 import Container from "@/components/container";
+import Projects from "@/components/project";
 export default function Home() {
   return (
     <div className="min-h-screen flex items-start justify-start">
@@ -7,6 +8,7 @@ export default function Home() {
       <p className="text-secondary text-sm md:text-sm pt-4 max-w-lg">
         I'm a full-stack developer with experience in DevOps tools, currently learning Web3 to build more connected and resilient applications.
       </p>
+      <Projects/>
       </Container>
     </div>
   );
