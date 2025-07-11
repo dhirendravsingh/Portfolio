@@ -1,4 +1,5 @@
 import Container from "@/components/container";
+import LandingBlogs from "@/components/landing-blogs";
 import Projects from "@/components/project";
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         I'm a full-stack developer with experience in DevOps tools, currently learning Web3 to build more connected and resilient applications.
       </p>
       <Projects/>
+      <LandingBlogs/>
       </Container>
     </div>
   );
