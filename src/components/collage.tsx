@@ -7,7 +7,7 @@ import {
 export function Collage() {
   const items = [
     {
-      title: "Tyler Durden",
+      title: "A child's monochrome dreams",
       image:
         "/boy.jpg",
       className: "absolute top-10 left-[20%] rotate-[-5deg]",
@@ -60,7 +60,7 @@ export function Collage() {
             alt={item.title}
             className="pointer-events-none relative z-10 h-40 w-80 object-cover"
           />
-          <h3 className="mt-4 text-center text-base font-bold text-neutral-700 dark:text-neutral-300">
+          <h3 className="mt-1 mb-1 text-center text-xs font-medium text-neutral-700 dark:text-neutral-300">
             {item.title}
           </h3>
         </DraggableCardBody>
