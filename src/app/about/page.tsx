@@ -2,6 +2,7 @@ import { Collage } from "@/components/collage";
 import Container from "@/components/container";
 import LandingBlogs from "@/components/landing-blogs";
 import Projects from "@/components/project";
+import Timeline from "@/components/timeline";
 export default function AboutPage() {
   return (
     <div className="min-h-screen flex items-start justify-start">
@@ -12,6 +13,10 @@ I'm a full-stack developer drawn to clean interfaces and the logic behind them. 
 
       </p>
         <Collage/>
+        <p className="text-secondary text-sm md:text-sm pt-4 max-w-lg">
+          Here's a timeline of my journey so far:
+      </p>
+        <Timeline/>
       </Container>
     </div>
   );
