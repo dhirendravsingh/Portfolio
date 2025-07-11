@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Container from '../container'
 import Image from 'next/image'
 import Link from 'next/link'
-import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
+import { motion, useMotionTemplate, useMotionValueEvent, useScroll, useTransform } from 'framer-motion'
 const Navbar = () => {
     const navItems = [
         {
@@ -30,6 +30,11 @@ const Navbar = () => {
 
     const [scrolled, setScrolled] = useState<boolean>(false)
 
+    const y = useTransform(scrollY, [0, 100], [0, 10])
+    const width = useTransform(scrollY, [0, 100], ["59%", "51%"])
+    const opacity = useTransform(scrollY, [0, 100], [1, 0.8])
+    const filter = useMotionTemplate`blur(${useTransform(scrollY, [0, 100], [0, 10])}px)`
+
     useMotionValueEvent(scrollY, "change", (latest)=>{
         if(latest > 20){
             setScrolled(true)
@@ -40,16 +45,11 @@ const Navbar = () => {
   return (
     <Container>
     <motion.nav 
-        animate={{
-            boxShadow : scrolled ? "var(--shadow-aceternity)" : "none",
-            width : scrolled ? "50%" : "100%",
-            y : scrolled ? 10 : 0
-        }}
         transition={{
             duration : 0.3,
             ease: "linear"
         }}
-        style={{boxShadow : scrolled ? "var(--shadow-aceternity)" : "none"}} className='fixed inset-x-0 top-0 z-50 rounded-full left-0 max-w-4xl mx-auto flex items-center bg-white justify-between  dark:bg-neutral-900 py-2 px-3'>
+        style={{boxShadow : scrolled ? "var(--shadow-aceternity)" : "none", width, y}} className='fixed backdrop-blur-sm inset-x-0 top-0 z-50 rounded-full left-0 max-w-4xl mx-auto flex items-center bg-white justify-between  dark:bg-neutral-900 py-2 px-3'>
             <Link href={"/"}>
             <Image src="/dhiru2.jpg" height="100" width="100" alt='Dhirendra Avatar' className='h-10 w-10 rounded-full'/>
             </Link>
