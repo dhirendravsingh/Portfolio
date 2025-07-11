@@ -4,13 +4,24 @@ import Container from '@/components/container';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import {promises as fs} from 'fs'
 import path from 'path';
-import { getSingleBlog } from '@/utils/mdx';
+import { getBlogFrontMatterBySlug , getSingleBlog} from '@/utils/mdx';
 import { redirect } from 'next/navigation';
 
-export const metadata: Metadata = {
-  title: "All blogs - Dhirendra Vikram Singh",
-  description: "All my general wisdom and thoughts",
-};
+
+export async function generateMetadata({params} : {params : {slug : string}}) {
+  const frontmatter = await getBlogFrontMatterBySlug(params.slug);
+  if (!frontmatter) { 
+    return {
+      title: "Blog not found",
+      description: "The blog you are looking for does not exist."
+    };
+  }
+  return {
+    title: frontmatter?.title + " " + "-" + " " + "Dhirendra Vikram Singh",
+    description: frontmatter?.description || "A blog post by Dhirendra Vikram Singh"
+   
+  }
+}
 
 export default async function SingleBlogPage({params} : {
   params : {
