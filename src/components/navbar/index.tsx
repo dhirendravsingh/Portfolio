@@ -51,7 +51,7 @@ const Navbar = () => {
         }}
         style={{boxShadow : scrolled ? "var(--shadow-aceternity)" : "none", width, y}} className='fixed backdrop-blur-sm inset-x-0 top-0 z-50 rounded-full left-0 max-w-4xl mx-auto flex items-center bg-white justify-between  dark:bg-neutral-900 py-2 px-3'>
             <Link href={"/"}>
-            <Image src="/dhiru2.jpg" height="100" width="100" alt='Dhirendra Avatar' className='h-10 w-10 rounded-full'/>
+            <Image src="/dhiru4.jpg" height="100" width="100" alt='Dhirendra Avatar' className='h-10 w-10 rounded-full'/>
             </Link>
             <div className='flex items-center'>
                 {navItems.map((item, idx)=> (

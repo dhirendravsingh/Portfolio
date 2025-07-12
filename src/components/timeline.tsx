@@ -65,7 +65,7 @@ const Timeline = () => {
   return (
     <div ref={ref} className='py-10'>
         {data.map((year, index)=> (
-            <div key={year.title} className='mb-4'> 
+            <div content='px-4 py-1' key={year.title} className='mb-4'> 
                 <motion.h2
                 animate={{
                     filter : isInView ? 'blur(0px)' : 'blur(10px)',
@@ -76,7 +76,7 @@ const Timeline = () => {
                     ease : 'easeInOut',
                     delay : 0.1 * index
                 }}
-                className='font-bold text-black'>{year.title}</motion.h2>
+                className='font-bold  rounded-md shadow-aceternity w-fit px-2 py-0.5 mb-2 text-black'>{year.title}</motion.h2>
                 <div className="flex flex-col gap-4">
                 {year.content.map((item, idx)=> (
                     <div key={item.title} className='pl-4 '> 
