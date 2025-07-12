@@ -7,62 +7,62 @@ import {
 export function Collage() {
   const items = [
     {
-      title: "The Narrator 2",
+      title: "The bird that disappears",
       
       image:"/h.jpg",
-      className: "absolute top-40 ", //left-[25%] rotate-[-7deg]
+      className: "absolute top-50 left-[3%] ", //rotate-[-7deg]
     },
     {
-      title: "The Narrator",
+      title: "chaos personified",
       
       image:"/c.jpg",
-      className: "absolute top-40 ", //left-[25%] rotate-[-7deg]
+      className: "absolute top-50 right-[5%] ", //rotate-[5deg]
     },
     {
-      title: "Iceland",
+      title: "The Vanity of Existence",
       
       image:"/i.jpg",
-      className: "absolute top-5 ", //left-[40%] rotate-[8deg]
+      className: "absolute top-5 left-[25%] ", //rotate-[8deg]
     },
     
     {
-      title: "lorem",
+      title: "Unseen realities",
       
       image:"/fff.jpg",
-      className: "absolute top-32 ", //left-[55%] rotate-[10deg]
+      className: "absolute top-55 right-[30%] ", //rotate-[10deg]
     },
 
   
     
     {
-      title: "Canada",
+      title: "Tragic backstories and humor",
       
       image:"/boat_man.jpg",
-      className: "absolute top-8", // left-[30%] rotate-[4deg]
+      className: "absolute top-8 left-[5%] ", //rotate-[4deg]
     },
       {
-      title: "Norway",
+      title: "Ripples in the sky",
       
       image:"/birdsNboat.jpg",
-      className: "absolute top-20 ", //right-[35%] rotate-[2deg]
+      className: "absolute top-20 right-[10%] ", //rotate-[2deg]
     },
     {
-      title: "Japan",
+      title: "Poems of Problems",
       
       image:"/o.jpg",
-      className: "absolute top-32 ", //left-[55%] rotate-[10deg]
+      className: "absolute top-40 left-[20%] ", //rotate-[10deg]
     },
      
     {
-      title: "New Zealand",
+      title: "Peace & Quiet",
       
       image:"/monotonous_road_.jpg",
-      className: "absolute top-24 ", //left-[45%] rotate-[-7deg]
+      className: "absolute top-0 left-[55%] ", //rotate-[-7deg]
     },
     {
       title: "A child's monochrome dreams",
       image:"/child.jpg",
-      className: "absolute top-10 ", //left-[20%] rotate-[-5deg]
+      className: "absolute top-20 left-[35%] ", //rotate-[-5deg]
     },
   ];
   return (
